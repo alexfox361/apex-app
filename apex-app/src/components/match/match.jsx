@@ -33,6 +33,8 @@ export default function Match(props) {
         fetchData();
     }, [])
 
+    console.log(data)
+
     return (
         <>
             {
